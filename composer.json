@@ -1,0 +1,21 @@
+{
+    "name": "erikfig/son-orm",
+    "type": "library",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Erik Figueiredo",
+            "email": "erik.figueiredo@gmail.com"
+        }
+    ],
+    "require": {},
+    "autoload": {
+        "psr-4": {
+            "ErikFig\\ORM\\": "src",
+            "App\\": "app"
+        }
+    },
+    "require-dev": {
+        "squizlabs/php_codesniffer": "^3.1"
+    }
+}
